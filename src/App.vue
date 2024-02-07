@@ -15,6 +15,7 @@ import Calendar from './components/Calendar.vue'
 			<i>ScheduFlow</i>, schedule management team 
 		</div>
 		<div class="sdule">
+			<p>Completed Schedule </p>
 			<CompleteSchedule />
 		</div>
 		 <div class="inline">
@@ -37,6 +38,15 @@ import Calendar from './components/Calendar.vue'
 </template>
 
 <style scoped>
+	.sdule {
+		margin-top : 2px;
+   		 width: 250px;
+                height : 180px;
+                border: 1px #9cb dashed;
+                background-color: #86B9F3;
+                border-radius: 3px;
+
+	}
 	p {
 		font-weight: bold;
 		text-align: center;	
